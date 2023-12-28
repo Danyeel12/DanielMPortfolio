@@ -126,6 +126,63 @@
   transform: translateZ(0);
 }
 
+.footer {
+  display: flex;
+  flex-direction: column; /* Stack footer content vertically */
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+  padding: 1rem 0; /* Padding at the top and bottom */
+  background-color: #000; /* Black background */
+  color: white;
+}
+
+/* This container holds the icons horizontally */
+.footer-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  margin-bottom: 0.5rem; /* Space between icons and text */
+}
+
+/* Individual icon links */
+.footer-icons a {
+  margin: 0 2.5rem; /* Space between icons */
+}
+
+.footer-text {
+  font-size: 0.875rem; /* Smaller font size for the text */
+  text-align: center; /* Center text horizontally */
+}
+
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container .text-center {
+    margin-bottom: 1rem;
+  }
+
+  .about-image {
+    width: 250px; /* Adjust the size as needed for small screens */
+    height: 250px; /* Adjust the size as needed for small screens */
+    margin-bottom: 1rem;
+  }
+
+  .about-text {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 1rem; /* Add some side padding */
+  }
+
+  .resume-button {
+    margin: 0.5rem 0; /* Add some space between buttons */
+    padding: 1rem 2rem; /* Adjust padding for a better tap target */
+  }
+}
+
+
 @keyframes mulShdSpin {
   0%,
   100% {

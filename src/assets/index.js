@@ -25,7 +25,8 @@ import threejs from "./tech/threejs.svg";
 import dpwh from "./company/dpwh.png";
 import subway from "./company/subway.png";
 import tims from "./company/tims.png";
-import coffeebean from "./company/coffeebean.png";
+import internship from "./company/dpwh.png";
+import freelance from "./company/freelance.png";
 
 import centennial from "./school/centennial.png";
 import ncst from "./school/ncst.png";
@@ -66,8 +67,9 @@ export {
   typescript,
   threejs,
   dpwh,
-  coffeebean,
+  internship,
   tims,
+  freelance,
   subway,
   centennial,
   ncst,

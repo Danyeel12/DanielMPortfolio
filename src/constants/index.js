@@ -17,8 +17,9 @@ import {
   docker,
   dpwh,
   subway,
-  coffeebean,
+  internship,
   tims,
+  freelance,
   centennial,
   ncst,
   gov,
@@ -45,6 +46,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+
 ];
 
 const services = [
@@ -53,7 +55,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI/UX Designer",
     icon: mobile,
   },
   {
@@ -123,11 +125,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Freelancer",
+    company_name: "Self Employed - Toronto, Ontario",
+    icon: freelance,
+    iconBg: "#383E56",
+    date: "August 2021 - Present",
+    points: [
+      "As a freelance software developer, I specialize in delivering custom software solutions across various industries. My expertise lies in Java, C#, and web development technologies. I manage all aspects of the software development lifecycle, from initial consultation and design to development, testing, and support. Renowned for delivering projects on time, I ensure each solution is tailored to meet client needs, emphasizing quality, efficiency, and user-friendly design..",
+    ],
+  },
+  {
     title: "Team Member",
     company_name: "Tim Hortons - Concord, Ontario",
     icon: tims,
     iconBg: "#383E56",
-    date: "January 2023 - Present",
+    date: "October 2023 - Present",
     points: [
       "Work effectively as part of a team, communicating and collaborating with other staff members to ensure excellent.",
       "Pleasantly greeted customers and addressing their concerns",
@@ -149,52 +161,45 @@ const experiences = [
     ],
   },
   {
-    title: "Engineering Coordinator",
-    company_name: "Department of Public Works - Trece Martires, Philippines",
+    title: "Software Developer",
+    company_name: "Department of Public Works -  Philippines",
     icon: dpwh,
     iconBg: "#383E56",
-    date: "August 2018 - September 2022",
+    date: "August 2020 - September 2022",
     points: [
-      "Preparation of administrative reports. Monitoring and conducting meeting schedule. Documentation and implementation of build plan.",
-      "Testing quality construction materials for building highways, buildings, bridges, drainage system, and mountain slopes. ",
-      "Inspection of on-site project and auditing resource allocations.",
-      "Reports to section chief as part of secretarial duties.",
-      "Creating quality assurance program. Coordinating documentation to various accredited testing centers for material quality assessment",
-      "Documenting on- site progress. Issue documentation for contractors to get budget for projects. ",
-      "Tracking documentation of all released project funds.",
-      "Auditing project funds. ",
-      "Collaborating and coordinating documents to other regional/district government branch",
-      "Program support officer for project concerns. Testing unit officer: for various core materials (Asphalt) to build roads, highways, and infrastructures.",
-      "Measuring strengths, density, flexibility and size of concretes use to maintain efficacy of public roads and highways, as well as for other government infrastructure building.",
-      "Officer in charge of assessing strength and reinforcement of steelworks of infrastructure. Officer in charge of testing of plasticity of soils",
+      "Collaborated with cross-functional teams to design, develop, and maintain software solutions that enhance the efficiency and effectiveness of DPWH's civil engineering projects.",
+      "Provided technical support to DPWH staff, addressing software-related issues and ensuring smooth operation of critical systems ",
+      "Led the design, development, and maintenance of full-stack software applications that addressed critical needs within the department",
+      "Designed intuitive user interfaces and user experiences (UI/UX) to ensure ease of use for non-technical staff.",
+      "Developed and maintained APIs to facilitate data exchange and integration with external systems and databases.",
+      "Embraced Agile methodologies, such as Scrum or Kanban, to manage software development projects efficiently ",
+      "Participated in sprint planning, daily stand-ups, and retrospectives to ensure project milestones were met",
 
     ],
   },
   {
-    title: "Barista",
-    company_name: "Coffee Bean and Tea Leaf",
-    icon: coffeebean,
+    title: "Software Developer - Internship",
+    company_name: "Department of Public Works -  Philippines",
+    icon: internship,
     iconBg: "#E6DEDD",
     date: "June 2018 - September 2022",
     points: [
-      "Provide exceptional customer service by greeting and assisting customers, taking orders, and recommending beverages based on their preferences.",
-      "Prepare and serve a variety of hot and cold beverages, including coffee and espresso, tea, smoothies, and specialty",
-      "Process cash, credit, and mobile payments accurately, and handle cash register operations while maintaining cash drawer integrity.",
-      "Maintain a clean and organized work area, including equipment, counters, tables, and seating areas. Adhere to health and safety guidelines in food handling and sanitation.",
-      " Effectively communicate with team members and collaborate efficient service and smooth operations during peak hours.",
+      "Collaborated with senior frontend developers and UX designers to create visually appealing and user-friendly web interfaces for software applications used by DPWH staff.",
+      "Gained proficiency in writing clean, semantic HTML and CSS code to implement frontend designs.",
+      "Gained exposure to JavaScript programming to enhance website interactivity and functionality.",
     ],
   },
 ];
 
 const educations = [
   {
-    title: "Software Engineering Technician - Fast Track",
+    title: "Diploma of Software Engineering - Fast Track",
     school_name: "Centennial College - Progress, Scarborough, Ontario",
     icon: centennial,
     iconBg: "#383E56",
-    date: "September 2022 - Present",
+    date: "September 2022 - December 2023",
     points: [
-      "Expected GPA: 3.5 ",
+      "GPA: 3.5 ",
       ,
     ],
   },
@@ -205,12 +210,12 @@ const educations = [
     iconBg: "#E6DEDD",
     date: "August 2019 - September 2022",
     points: [
-      "GPA: 3.5",
+      "GPA: 3.6",
       
     ],
   },
   {
-    title: "Computer Programming",
+    title: "TVL - Computer Programming IV",
     school_name: "Governor Ferrer National School - General Trias City, Cavite, Philippines",
     icon: gov,
     iconBg: "#383E56",

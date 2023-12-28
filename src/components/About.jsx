@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import profilePic from "../assets/me.png";
-import resumeFile from '../assets//Resume_DanielMiranda.pdf';
+import resumeFile from '../assets//ResumeDanielMiranda.pdf';
 
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -43,7 +43,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <div className={`flex ${styles.flexColMdFlexRow} justify-center items-center`}>
+      <div className={`about-container flex ${styles.flexColMdFlexRow} justify-center items-center`}>
           <div className='text-center md:text-left'>
             <p className={styles.sectionSubText}>Introduction</p>
             <h2 className={styles.sectionHeadText}>Overview</h2>
@@ -60,7 +60,7 @@ const About = () => {
               href={resumeFile}
               target="_blank"
               rel="noopener noreferrer"
-              className={`inline-block mt-4 px-6 py-2 text-white bg-blue-600 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline ${styles.resumeButton}`}
+              className={`resume-button inline-block mt-4 px-6 py-2 text-white bg-blue-600 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline ${styles.resumeButton}`}
             >
               View Resume
             </a>
@@ -68,7 +68,7 @@ const About = () => {
             <a
               href={resumeFile}
               download
-              className={`inline-block mt-4 ml-4 px-6 py-2 text-white bg-green-600 rounded-full hover:bg-green-700 focus:outline-none focus:shadow-outline ${styles.resumeButton}`}
+              className={`resume-button inline-block mt-4 ml-4 px-6 py-2 text-white bg-green-600 rounded-full hover:bg-green-700 focus:outline-none focus:shadow-outline ${styles.resumeButton}`}
             >
               Download Resume
             </a>
@@ -76,7 +76,7 @@ const About = () => {
           <img
             src={profilePic}
             alt='Daniel Miranda'
-            className={`md:w-[400px] md:h-[350px] w-[300px] h-[300px] rounded-full object-cover ${styles.imgStyle}`}
+            className={`about-image md:w-[400px] md:h-[350px] w-[300px] h-[300px] rounded-full object-cover ${styles.imgStyle}`}
           />
         </div>
       </motion.div>
