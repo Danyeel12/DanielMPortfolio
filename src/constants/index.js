@@ -25,7 +25,7 @@ import {
   gov,
   santiago,
   wandersphere,
-  netflix,
+  ontario,
   messenger,
   wimtach, 
   adobe,
@@ -291,34 +291,27 @@ const projects = [
     browser_code_link: "https://wander-sphere.vercel.app/",
   },
   {
-    name: "Netflix Clone",
+    name: "Premier of Ontario",
     description:
-      "A web streaming service resembling Netflix, with extensive content and personalized viewing options.",
+      "Explore Ontario's political legacy with our 'Ontario Premier List.' This user-friendly C# GUI app provides an organized list of all past and present Premiers.",
     tags: [
       {
-        name: "Nextjs",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "React",
+        name: "GUI",
         color: "green-text-gradient",
       },
       {
-        name: "TailwindCSS",
+        name: "Windows Form",
         color: "pink-text-gradient",
       },
-      {
-        name: "NextAuth",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "blue-text-gradient",
-      }
+    
     ],
-    image: netflix,
-    source_code_link: "https://github.com/Danyeel12/ytclone",
-    browser_code_link: "https://netflixcloneee.onrender.com/",
+    image: ontario,
+    source_code_link: "https://github.com/Danyeel12/PremierGui.git",
+    
   },
   {
     name: "Messenger",

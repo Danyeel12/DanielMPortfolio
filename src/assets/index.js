@@ -34,7 +34,7 @@ import gov from "./school/gov.jpeg";
 import santiago from "./school/santiago.jpeg";
 
 import wandersphere from "./wandersphere.png";
-import netflix from "./netlfix.png";
+import ontario from "./premier.png";
 import messenger from "./messenger.png";
 
 import wimtach from '../assets/icons8-certificate-64.png';
@@ -76,7 +76,7 @@ export {
   gov,
   santiago,
   wandersphere,
-  netflix,
+  ontario,
   messenger,
   wimtach,
   adobe,
