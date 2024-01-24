@@ -136,10 +136,10 @@ const experiences = [
   },
   {
     title: "Team Member",
-    company_name: "Tim Hortons - Concord, Ontario",
+    company_name: "Tim Hortons - Vaughn, Ontario",
     icon: tims,
     iconBg: "#383E56",
-    date: "October 2023 - Present",
+    date: "October 2022 - December 2023",
     points: [
       "Work effectively as part of a team, communicating and collaborating with other staff members to ensure excellent.",
       "Pleasantly greeted customers and addressing their concerns",
@@ -199,7 +199,7 @@ const educations = [
     iconBg: "#383E56",
     date: "September 2022 - December 2023",
     points: [
-      "GPA: 3.5 ",
+      "GPA: 4.0 ",
       ,
     ],
   },
@@ -311,7 +311,7 @@ const projects = [
     ],
     image: ontario,
     source_code_link: "https://github.com/Danyeel12/PremierGui.git",
-    
+    browser_code_link: " ",
   },
   {
     name: "Messenger",
