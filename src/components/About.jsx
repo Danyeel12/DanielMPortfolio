@@ -51,9 +51,9 @@ const About = () => {
               variants={fadeIn("", "", 0.1, 1)}
               className={`mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] ${styles.textContentCenterMdTextLeft}`}
             >
-              I'm a dedicated Junior Software Engineer with a passion for developing innovative software, creating user-friendly interfaces, 
-              and building web applications. My commitment to learning and problem-solving, along with a solid grasp of programming languages 
-              and frameworks, drives me to make a meaningful impact in the tech industry.
+              Passionate software developer dedicated to crafting clean, maintainable code and driven by a strong desire to work with cutting-edge technologies. 
+              Seeking a software developer position that enables me to excel in front-end, back-end, and full-stack development while fostering a culture of continuous 
+              learning and supporting my professional growth.
             </motion.p>
             {/* View Resume Button */}
             <a

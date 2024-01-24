@@ -200,7 +200,7 @@ const educations = [
     date: "September 2022 - December 2023",
     points: [
       "GPA: 4.0 ",
-      ,
+      "Courses: OOP in C#, Compilers, Algorithms, Operating Systems, Data Structures, Python, PL/SQL, Web Development, Angular, React, JavaScript, HTML5, CSS, and Java, Project Management, Unit Testing",
     ],
   },
   {
@@ -211,6 +211,7 @@ const educations = [
     date: "August 2019 - September 2022",
     points: [
       "GPA: 3.6",
+      "Courses: OOP in Java, Compilers, JavaScript, HTML, CSS, and SQL, Algorithms, Data Structures",
       
     ],
   },
@@ -221,7 +222,8 @@ const educations = [
     iconBg: "#383E56",
     date: "June 2018 - May 2020",
     points: [
-      "3.4",
+      "GPA: 3.4",
+      "Courses: Java"
 
     ],
   },
