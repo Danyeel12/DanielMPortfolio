@@ -165,7 +165,7 @@ const experiences = [
     company_name: "Department of Public Works -  Philippines",
     icon: dpwh,
     iconBg: "#383E56",
-    date: "June 2021 - September 2022",
+    date: "June 2018 - September 2022",
     points: [
       "Collaborated with cross-functional teams to design, develop, and maintain software solutions that enhance the efficiency and effectiveness of DPWH's civil engineering projects.",
       "Provided technical support to DPWH staff, addressing software-related issues and ensuring smooth operation of critical systems ",
@@ -174,19 +174,10 @@ const experiences = [
       "Developed and maintained APIs to facilitate data exchange and integration with external systems and databases.",
       "Embraced Agile methodologies, such as Scrum or Kanban, to manage software development projects efficiently ",
       "Participated in sprint planning, daily stand-ups, and retrospectives to ensure project milestones were met",
-
-    ],
-  },
-  {
-    title: "Software Developer - Internship",
-    company_name: "Department of Public Works -  Philippines",
-    icon: internship,
-    iconBg: "#E6DEDD",
-    date: "September 2020 - May 2021",
-    points: [
       "Collaborated with senior frontend developers and UX designers to create visually appealing and user-friendly web interfaces for software applications used by DPWH staff.",
       "Gained proficiency in writing clean, semantic HTML and CSS code to implement frontend designs.",
       "Gained exposure to JavaScript programming to enhance website interactivity and functionality.",
+
     ],
   },
 ];
