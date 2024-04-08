@@ -16,8 +16,6 @@ import {
   figma,
   docker,
   dpwh,
-  subway,
-  internship,
   tims,
   freelance,
   centennial,
@@ -31,6 +29,8 @@ import {
   adobe,
   mvp,
   threejs,
+  starbucks,
+  docudavit,
 } from "../assets";
 
 export const navLinks = [
@@ -135,9 +135,22 @@ const experiences = [
     ],
   },
   {
-    title: "Team Member",
-    company_name: "Tim Hortons - Vaughn, Ontario",
-    icon: tims,
+    title: "Associate",
+    company_name: "Docudavit Solutions - Toronto, Ontario",
+    icon: docudavit,
+    iconBg: "#383E56",
+    date: "March 2023 - Present",
+    points: [
+      "Conducted comprehensive scanning, data entry, and document verification tasks with meticulous attention to detail, ensuring accurate digital records.",
+      "Organized and submitted documentation for manager review, ensuring prompt completion while maintaining confidentiality. Collaborated to streamline workflow for improved efficiency.s",
+      "Conduct thorough quality checks on scanned documents to verify completeness, legibility, and adherence to company standards",
+      "Identify and rectify errors or discrepancies in scanned documents promptly, maintaining a high level of attention to detail.",
+    ],
+  },
+  {
+    title: "Assistant Manager",
+    company_name: "Starbucks - Toronto, Ontario",
+    icon: starbucks,
     iconBg: "#383E56",
     date: "October 2022 - December 2023",
     points: [
@@ -149,8 +162,8 @@ const experiences = [
   },
   {
     title: "Team Member",
-    company_name: "Subway Restaurant - Toronto, Ontario",
-    icon: subway,
+    company_name: "Tim Hortons - Vaughn, Ontario",
+    icon: tims,
     iconBg: "#E6DEDD",
     date: "September 2022 - Decemeber 2022",
     points: [
