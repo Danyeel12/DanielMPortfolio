@@ -31,6 +31,8 @@ import {
   threejs,
   starbucks,
   docudavit,
+  gao,
+  csf,
 } from "../assets";
 
 export const navLinks = [
@@ -148,7 +150,34 @@ const experiences = [
     ],
   },
   {
-    title: "Assistant Manager",
+    title: "Software Developer - Internship",
+    company_name: "Canadian Sheep Federation - Williamsburg, Ontario",
+    icon: csf,
+    iconBg: "#383E56",
+    date: "October 2022 - December 2023",
+    points: [
+      "Developed responsive web applications ensuring cross-browser compatibility and mobile responsiveness.",
+      "Contributed to server-side logic development, database integration, and API design under the guidance of senior developers.",
+      "Gained exposure to CI/CD pipelines and assisted in deployment processes to staging and production environments",
+      "Engaged in pair programming sessions and code reviews to improve coding practices and ensure code quality",
+    ],
+  },
+  {
+    title: "Full Stack Developer - Internship",
+    company_name: "Gao Tek Inc. - Toronto, Ontario",
+    icon: gao,
+    iconBg: "#383E56",
+    date: "August 2023 - December 2023",
+    points: [
+      "Designed and implemented user-friendly web interfaces using React.js, HTML5, and CSS3.",
+      "Built and maintained RESTful APIs using Node.js and Express.js, enabling efficient communication between frontend and backend systems.",
+      "Designed, implemented, and maintained relational databases PostgreSQL and MongoDB to store and manage data.",
+      "Utilized Git for version control, managing code repositories, and facilitating collaborative development workflows",
+      "Participated in agile development practices, including daily stand-ups, sprint planning, and retrospective meetings.",
+    ],
+  },
+  {
+    title: "Team Member",
     company_name: "Starbucks - Toronto, Ontario",
     icon: starbucks,
     iconBg: "#383E56",

@@ -25,6 +25,8 @@ import threejs from "./tech/threejs.svg";
 import dpwh from "./company/dpwh.png";
 import docudavit from "./company/docudavit.jpg";
 import starbucks from "./company/starbucks.png";
+import csf from "./company/CSF.png";
+import gao from "./company/GaoTek.png";
 import tims from "./company/tims.png";
 import internship from "./company/dpwh.png";
 import freelance from "./company/freelance.png";
@@ -72,6 +74,8 @@ export {
   tims,
   freelance,
   starbucks,
+  csf,
+  gao,
   docudavit,
   centennial,
   ncst,
