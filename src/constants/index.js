@@ -154,7 +154,7 @@ const experiences = [
     company_name: "Canadian Sheep Federation - Williamsburg, Ontario",
     icon: csf,
     iconBg: "#383E56",
-    date: "January 2023 - May 2024",
+    date: "January 2024 - May 2024",
     points: [
       "Developed responsive web applications ensuring cross-browser compatibility and mobile responsiveness.",
       "Contributed to server-side logic development, database integration, and API design under the guidance of senior developers.",

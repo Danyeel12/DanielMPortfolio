@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import profilePic from "../assets/me.png";
-import resumeFile from '../assets//Resume_MirandaDaniel';
+import resumeFile from '../assets/Resume_MirandaDaniel.pdf';
 
 
 const ServiceCard = ({ index, title, icon }) => (
